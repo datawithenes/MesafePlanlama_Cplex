@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<description>Factory Planning, Linear Programming</description>
+	<configs>
+		<config category="opl" default="true" name="Basic Configuration">
+			<ref name="factoryPlanning1.dat" type="data">
+			</ref>
+			<ref name="factoryPlanning1.mod" type="model">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="With maintenance downtime">
+		</config>
+	</configs>
+	
+</project>
